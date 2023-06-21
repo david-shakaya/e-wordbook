@@ -7,6 +7,10 @@ $mobile: 576px;
   padding-top: 130px;
   text-align: center;
 
+  @media screen and (max-width: 576px) {
+    padding-top: 100px;
+  }
+
   &__title {
     margin-bottom: 30px;
   }

@@ -458,7 +458,7 @@ li {
 }
 .header__logo-link {
   color: #3c3e43;
-  background-image: url("./img/logo6.png");
+  background-image: url("../img/logo6.png");
   background-repeat: no-repeat;
   width: 209px;
   height: 40px;
@@ -989,6 +989,11 @@ li {
 .main-page {
   padding-top: 130px;
   text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .main-page {
+    padding-top: 100px;
+  }
 }
 .main-page__title {
   margin-bottom: 30px;
